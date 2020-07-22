@@ -1,0 +1,15 @@
+header {
+  background-color: transparent;
+  text-align: center;
+  background-image: url("work.jpg");
+  color: white;
+  background-size: cover;
+}
+nav {
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: transparent;
+  margin-bottom: 180px;
+}

@@ -1,0 +1,90 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="Test.css">
+	</head>
+	<body>
+		<header >
+			<nav >
+				<div id="logo"> logos</div>
+				<div id="links"> links</div>
+			</nav>
+		</header>
+
+		<section id="DarkGray">
+			<table>
+				<tr id="first">
+					<td></td>
+				</tr>
+				<tr id="after">
+					<td id="imag"></td>
+					<td id="text"></td>
+				</tr>
+				<tr id="after">
+					<td id="text"></td>
+					<td id="imag"></td>
+				</tr>
+				<tr id="after">
+					<td id="imag"></td>
+					<td id="text"></td>
+				</tr>
+			</table>
+		</section>
+
+		<section id="LightGray">
+		</section>
+
+		<footer>
+		</footer>
+	</body>
+</html>
+
+
+
+CSS
+header {
+	height:400px;
+	Background-color:lightskyblue
+}
+nav{
+	height:75px;
+	Background-color:royalblue;
+	display: flex;justify-content: space-between;
+	padding: 10px;
+}
+#DarkGray{
+	margin-top:75px;
+	margin-bottom:75px;
+	margin-right:100px;
+	margin-left:100px;
+	height:800px;
+	background-color:darkgray
+}
+#LightGray{
+	height:150px;
+	background-color:gray
+}
+footer{
+	height:100px;
+	background-color:black
+}
+body{
+	margin:0px
+}
+#first{
+	background-color: blue;
+    	height: 50px;
+	
+}
+table {
+	width:100%
+}
+#after{
+	background-color: red;
+    	height: 60px;
+}
+#imag{
+	background-color: coral;
+}
+#text{
+	background-color:saddlebrown;
+}

@@ -1,0 +1,250 @@
+header {
+  background-color: transparent;
+  text-align: center;
+  background-image: url("work.jpg");
+  color: white;
+  background-size: cover;
+}
+nav {
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: transparent;
+  margin-bottom: 180px;
+}
+#TAKEACTION {
+  border-radius: 300px;
+  border-color: white;
+  background-color: transparent;
+  border-style: double;
+  height: 45px;
+  width: 155px;
+  margin: 15px;
+  margin-right: 5px;
+  color: white;
+}
+#LEARNMORE {
+  border-radius: 300px;
+  margin-bottom: 155px;
+  background-color: #36b3a8;
+  height: 51px;
+  width: 170px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  border: none;
+}
+h1 {
+  font-size: 70px;
+  font-family: sans-serif;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+em {
+  font-size: 32px;
+}
+#DarkGray {
+  margin-top: 75px;
+  margin-bottom: 75px;
+  margin-right: 100px;
+  margin-left: 100px;
+  background-color: white;
+}
+#image {
+  width: 50%;
+  height: auto;
+}
+#images {
+  width: 100%;
+}
+td {
+  padding-bottom: 84px;
+}
+#text {
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#contentButton {
+  border-radius: 300px;
+  background-color: #36b3a8;
+  color: white;
+  border: none;
+  height: 35px;
+  width: 140px;
+}
+#contentHeading {
+  color: #bdbdbd;
+  font-size: 20px;
+  font-family: monospace;
+}
+#contentHeading + p {
+  font-size: 26px;
+  font-family: adobe-garamond-pro;
+  color: rgba(0, 0, 0, 0.68);
+}
+a {
+  font-family: proxima-nova;
+  margin-right: 6px;
+  margin: 15px;
+}
+#text {
+  width: 50%;
+}
+#LightGray {
+  background-color: whitesmoke;
+  text-align: center;
+  padding-top: 66px;
+  padding-bottom: 66px;
+  padding-left: 170px;
+  padding-right: 170px;
+}
+#sub {
+  font-size: 35px;
+  margin-top: 0px;
+  margin-bottom: 17px;
+  font-family: monospace;
+}
+#sub + p {
+  margin-bottom: 29px;
+  font-size: 14px;
+}
+#signup {
+  width: 246px;
+  height: 53px;
+  padding: 15px;
+}
+#signup + input {
+  padding-left: 38px;
+  padding-right: 38px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  margin-left: 30px;
+  background-color: black;
+  color: white;
+  border-color: black;
+  font-family: none;
+  font-size: 15px;
+}
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+body {
+  margin: 0px;
+}
+
+table {
+  width: 100%;
+}
+#logo {
+  font-weight: bold;
+}
+img {
+  height: 60px;
+}
+span {
+  margin-right: 15px;
+  font-family: proxima-nova;
+  color: rgba(255, 255, 255, 0.8);
+}
+span + a {
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0px;
+}
+#link {
+  padding-bottom: 27px;
+  padding-top: 24px;
+}
+#link + div {
+  font-size: 20px;
+  padding-bottom: 64px;
+}
+#imag {
+  width: 100%;
+  height: auto;
+}
+#first {
+  text-align: center;
+}
+#firstHeading {
+  white-space: pre-wrap;
+  font-family: adobe-garamond-pro;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+}
+#firstHeading + p {
+  margin-left: 100px;
+  font-family: adobe-garamond-pro;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: rgba(26, 26, 26, 0.7);
+}
+#firstLink {
+  font-family: adobe-garamond-pro;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 1.6em;
+  color: rgba(26, 26, 26, 0.7);
+  font-style: italic;
+}
+#section {
+  margin-left: 90px;
+}
+
+#serviceHeading {
+  margin-right: 200px;
+  white-space: pre-wrap;
+  font-family: adobe-garamond-pro;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  text-align: center;
+}
+#serviceHeading + p {
+  margin-right: 00px;
+  margin-left: 00px;
+  font-family: adobe-garamond-pro;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: rgba(26, 26, 26, 0.7);
+}
+
+/* contact */
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
